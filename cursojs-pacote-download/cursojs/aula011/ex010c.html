@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torcedor</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Torcedomêtro</h1>
+    Qual é o seu time ? <input type="text" name="txttime" id="txttime">
+    <input type="button" value="verificar" onclick="verificartime()">
+    <div id="res">
+
+    </div>
+    <script>
+        function verificartime() {
+            var time = document.querySelector('input#txttime').value
+            var res = document.querySelector('div#res')
+            
+           
+            if (time == 'Fluminense') {
+                res.innerHTML = `<p>Você é <strong>tricolor</strong></p>`
+            } 
+            else{
+                res.innerHTML = `<p>Você <strong>não</strong> é tricolor</p>`
+            } 
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(228, 238, 247);
+    color: rgb(2, 2, 24);
+  }
+h1 {
+    color: rgba(6, 6, 87, 0.788);
+    font: normal 40pt arial;
+}
+p{
+    font: normal 20pt arial;
+}
